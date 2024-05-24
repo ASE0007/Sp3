@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - TravelPionner</title>
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.travel-site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: rgba(99, 158, 186, 0.59);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-section {
+    flex: 1;
+    background: url('image/Screenshot 2024-05-23 195301.png') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 50% gradient overlay */
+    z-index: 1;
+}
+
+.about {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: rgba(0, 0, 0, 0.6); /* Background for better text visibility */
+    border-radius: 10px;
+}
+
+.footer-left {
+    float: left;
+    width: 50%;
+    column-gap: 10px;
+    padding: 30px;
+}
+
+
+
+.footer-section {
+    background-color: rgba(18, 116, 163, 0.59);
+}
+
+.footer-up {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer-up .icon img {
+    height: 40px;
+}
+
+.email .icon img {
+    width: 35px;
+    height: 30px;
+}
+.facebook .icon img {
+    height: 36px !important;
+    width: 34px;
+}
+
+.phone .icon img {
+    width: 30px;
+    height: 34px;
+}
+
+.footer-down{
+    background-color: rgba(72, 105, 129, 1);
+    padding: 10px 0;
+    text-align: center;
+
+    
+
+}
+
+.footer-section span {
+    font-family: Arial;
+}
+
+.footer-section .icon {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px 0px;
+}
+
+.footer-down span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial;
+    text-align: center;
+    
+}
+.footer-down{
+    text-align: center;
+}
+.container1{
+    text-align: center;
+    padding-right: 500px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+        </style>
+</head>
+<body>
+    <div class="travel-site">
+        <nav>
+            <div class="logo">
+                <img src="image/a3d25fbf2b04622e14a54e1c8d28fbcb-removebg-preview.png" alt="Travelture Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="emergency.html">Emergency</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        
+        <main class="main-section">
+            <section class="about">
+                <h1>Welcome to TravelPionner</h1>
+                <p>
+                    Welcome to TravelPionner, where your journey begins with the power of choice at your fingertips. Our innovative platform empowers you to take control of your travel plans like never before. Whether you're searching for nearby accommodations, securing reservations with ease, or booking flights—domestic or international—on the fly, TravelPionner puts the world within reach. With the ability to make changes, cancelations, or even add additional reservations seamlessly, your travel experience becomes truly flexible and tailored to your needs. Join us on this journey and discover the freedom of next-generation travel planning.
+                </p>
+            </section>
+        </main>
+        
+        <div class="footer-section">
+            <div class="container">
+                <div class="footer-up">
+                    <div class="footer-left">
+                        <div class="email">
+                            <div class="icon"><img src="social-share-icons/email.png" alt=""><span>travelpioneer@gmail.com</span></div>
+                        </div>
+                        <div class="phone">
+                            <div class="icon"><img src="social-share-icons/phone.png" alt=""><span>+8801609038425</span></div>
+                        </div>
+                        <div class="map">
+                            <div class="icon"><img src="social-share-icons/map.png" alt=""><span>+8801609038425</span></div>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <div class="facebook">
+                            <div class="icon"><img src="social-share-icons/facebook.png" alt=""><span>facebook.com/travelpioneer</span></div>
+                            <div class="instagram">
+                                <div class="icon"><img src="social-share-icons/instagram.png" alt=""><span>instagram.com/travelpioneer</span></div>
+                            </div>
+                            <div class="twitter">
+                                <div class="icon"><img src="social-share-icons/twitter.png" alt=""><span>twitter.com/travelpioneer</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-down">
+                <div class="container1">
+                    <span>@2024 rights reserved</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f3f3f3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .contact-info span {
+    margin-right: 20px;
+}
+
+header .user-options a {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.filter h3, .filter h4 {
+    margin-top: 0;
+}
+
+.filter ul {
+    list-style: none;
+    padding: 0;
+}
+
+.filter ul li {
+    margin-bottom: 10px;
+}
+
+.tours {
+    width: 75%;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-bar input, .search-bar select, .search-bar button {
+    padding: 10px;
+}
+
+.tour-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tour-item {
+    display: flex;
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.tour-item img {
+    width: 150px;
+    height: 100px;
+}
+
+.tour-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tour-info h3 {
+    margin-top: 0;
+}
+
+

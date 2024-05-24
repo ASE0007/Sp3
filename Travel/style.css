@@ -1,0 +1,292 @@
+*{margin: 0 ;}
+
+.container{
+width: 100%;
+max-width: 1200px;
+display: block;
+overflow: hidden;
+margin: 0 auto;
+}
+
+
+.hero-section {
+    background-image: url(images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(99, 158, 186, 0.59);
+}
+
+.logo img {
+width: 100%;
+max-width: 35%;
+}
+
+.nav-menu ul li {
+float: left;
+list-style: none;
+padding: 15px;
+}
+.nav-menu ul li a {
+text-decoration: none;
+color: #000;
+font-family: Arial;
+line-height:44px;
+
+}
+
+.explore-travel {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.explore-travel img {
+    width: 100%;
+    max-width: 35%;
+}
+
+
+.second-section{
+    padding-top:70px;
+    padding-bottom:120px;
+}
+
+.title-box {
+    text-align: center;
+}
+
+
+
+.box-card {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-card .card {
+    display: inline-grid;
+    width: 25%;
+    background-color: #eeeeee;
+    margin: 15px;
+    padding: 20px;
+}
+
+.box-card .card img {
+    width: 100%;
+}
+
+
+
+
+@font-face {
+    font-family: 'Bad Script';
+    src: url('fonts/BadScript-Regular.ttf') format('truetype');
+}
+
+
+.title-box h1 {
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.title-box p {
+    font-family: 'Bad Script';
+    font-size: 25px;
+}
+
+
+.card-title span {
+    font-family: 'Bad Script';
+    font-size: 25px;
+}
+
+
+.footer-left {
+    float: left;
+    width: 50%;
+}
+
+
+
+.footer-section {
+    background-color: rgba(18, 116, 163, 0.59);
+}
+
+.footer-up {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(18, 116, 163, 0.59);
+}
+
+.footer-up .icon img {
+    height: 40px;
+}
+
+.email .icon img {
+    width: 35px;
+    height: 30px;
+}
+.facebook .icon img {
+    height: 36px !important;
+    width: 34px;
+}
+
+.phone .icon img {
+    width: 30px;
+    height: 34px;
+}
+
+.footer-down{
+    background-color: rgba(72, 105, 129, 1);
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+.footer-section span {
+    font-family: Arial;
+}
+
+.footer-section .icon {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px 0px;
+}
+.footer-down span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial;
+}
+
+
+
+
+/*tours-page*/
+
+.main-bg img {
+    width: 100%;
+}
+
+
+
+/*tickets-page*/
+.ticket-bg img {
+    width: 100%;
+    padding-bottom: 70px;
+    background-color: #fff;
+}
+
+.tickets-bg-2 img {
+    width: 100%;
+}
+
+/*reservation-page*/
+
+.reservation-page img {
+    width: 100%;
+}
+
+
+
+/*shop-page*/
+.shop-bg img {
+    width: 100%;
+}
+
+
+/*emergency-page*/
+
+.emergency-page img{
+    width: 100%;
+}
+
+
+
+
+
+
+/*topbar-section*/
+.topbar {
+    background-color: rgba(18, 116, 163, 0.59);
+    padding: 10px 5px;
+    overflow: hidden;
+}
+.topbar .left .icon {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.topbar .left .icon img {
+    width: 23px;
+    height: 24px;
+}
+
+.topbar .left .icon span {
+    font-family: Arial;
+}
+
+.topbar .left {
+    display: flex;
+    align-items: stretch;
+    float: left;
+    margin-right: 80px;
+}
+
+.topbar .email {
+    margin-right: 10px;
+}
+
+.topbar .phone {
+    margin-right: 10px;
+}
+
+
+
+.topbar .right {
+    display: inline-flex;
+    align-items: center;
+    float: left;
+    width: 20%;
+    justify-content: center;
+}
+.topbar .right2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.topbar .right .instagram .icon img {
+    width: 25px;
+}
+
+.topbar .right .twitter .icon img {
+    width: 28px;
+}
+
+.topbar .right .facebook .icon img {
+    width: 25px;
+    height: 24px !important;
+}
+.topbar .right .icon img {
+    margin: 0 5px;
+}
+
+.topbar .right2 {
+   float: left;
+   display: inline-flex;
+    align-items: center;
+    width: 33%;
+    justify-content: flex-end;
+}
+.topbar .right2 img {
+    width: 28px;
+}

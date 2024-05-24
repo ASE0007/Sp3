@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid #61dafb;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.user-profile {
+    color: #61dafb;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.about {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contact-info p,
+.contact-info a {
+    margin: 5px 0;
+}
+
+.contact-info img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.social-media a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.social-media img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
